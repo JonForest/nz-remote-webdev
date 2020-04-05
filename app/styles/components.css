@@ -1,0 +1,7 @@
+.hover-increase:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in;
+}
+.hover-increase {
+  transition: 0.2s ease-in;
+}

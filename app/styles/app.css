@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "components.css";
+
+@import "tailwindcss/utilities";
+@import "utilities.css";
+
+body {
+  font-family: CustomFont,sans-serif;
+  font-size: 1.2em;
+  background-color: #001135;
+  background-image: url(/img/otisreading.png);
+  color: #ccc;
+  margin: 0;
+}
