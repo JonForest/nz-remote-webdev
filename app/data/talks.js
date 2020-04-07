@@ -14,7 +14,7 @@ export default {
       imageAttribution: 'Photo by Angely Acevedo on Unsplash',
       title: 'Coding Exercise Problem Solving',
       author: 'Sam Seay',
-      description: 'While applying for a job, Sam was presented with a coding exercise that contianer some entertaining problems. He\'s going to be telling us all about using IntersectionObserver and window.requestIdleCallback to solve them in exciting ways.'
+      description: 'While applying for a job, Sam was presented with a coding exercise that contained some entertaining problems. He\'s going to be telling us all about using IntersectionObserver and window.requestIdleCallback to solve them in exciting ways.'
     }]
   }
 }
