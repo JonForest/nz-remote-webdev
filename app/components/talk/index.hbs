@@ -1,8 +1,6 @@
 <div class="flex content-center mb-4">
   <div class="w-5/12 p-4">
-    <div class="overflow-hidden shadow-xl">
-    <img src="img/preview.png" alt="preview" class="w-full h-auto hover-increase">
-    </div>
+    <TalkImage src={{@talk.image}} alt={{@talk.imageAlt}} @imageAttribution={{@talk.imageAttribution}} />
   </div>
   <div class="w-6/12 h-12 p-4">
     <Title>{{@talk.title}}</Title>
@@ -10,4 +8,4 @@
     <Description>{{@talk.description}}</Description>
   </div>
 </div>
-{{!-- https://lgcolella.github.io/gatsby-starter-developer-blog/ --}}r
+{{!-- https://lgcolella.github.io/gatsby-starter-developer-blog/ --}}

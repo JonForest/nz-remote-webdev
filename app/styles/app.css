@@ -14,3 +14,32 @@ body {
   color: #ccc;
   margin: 0;
 }
+
+
+.link-underline {
+  text-decoration: none;
+  position: relative;
+}
+.link-underline::before {
+  position: absolute;
+  overflow: hidden;
+  content: "";
+  height: 2px;
+  top: 1.1em;
+  left: 100%;
+  width: 0%;
+  /* background-color:#DE602A; */
+  transition-property: width left;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  /* todo: fix so that @apply works. Think there is a video on Ember Map for tht */
+  background-color: #38b2ac;
+}
+
+.link-underline:hover::before {
+  width: 100%;
+  left: 0%;
+  transition-property: width;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
