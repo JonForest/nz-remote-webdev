@@ -12,9 +12,9 @@ export default {
       image: 'img/talks/infinite.png',
       imageAlt: 'Infinity symbol',
       imageAttribution: 'Photo by Angely Acevedo on Unsplash',
-      title: 'Coding Exercise Problem Solving',
+      title: 'Infinite Scroll in React',
       author: 'Sam Seay',
-      description: 'While applying for a job, Sam was presented with a coding exercise that contained some entertaining problems. He\'s going to be telling us all about using IntersectionObserver and window.requestIdleCallback to solve them in exciting ways.'
+      description: 'Sam has recently taken on some entertaining problems with infinite scroll in React. He\'s going to chat about how he solved that using IntersectionObserver and other lessons he learned on the journey.'
     }]
   }
 }
