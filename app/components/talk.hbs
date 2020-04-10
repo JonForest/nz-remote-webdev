@@ -6,6 +6,13 @@
     <Title>{{@talk.title}}</Title>
     <Author>{{@talk.author}}</Author>
     <Description>{{@talk.description}}</Description>
+    {{#if @talk.links}}
+      <div class="pt-4 font-bold text-center">Links:</div>
+      <ul>
+      {{#each @talk.links as |linkUrl|}}
+        <li class="text-center"><a href={{linkUrl}} class="link-underline">{{linkUrl}}</a></li>
+      {{/each}}
+      </ul>
+    {{/if}}
   </div>
 </div>
-{{!-- https://lgcolella.github.io/gatsby-starter-developer-blog/ --}}
