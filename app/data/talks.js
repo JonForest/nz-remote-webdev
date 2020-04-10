@@ -14,7 +14,8 @@ export default {
       imageAttribution: 'Photo by Angely Acevedo on Unsplash',
       title: 'Infinite Scroll in React',
       author: 'Sam Seay',
-      description: 'Sam has recently taken on some entertaining problems with infinite scroll in React. He\'s going to chat about how he solved that using IntersectionObserver and other lessons he learned on the journey.'
+      description: 'Sam has recently taken on some entertaining problems with infinite scroll in React. He\'s going to chat about how he solved that using IntersectionObserver and other lessons he learned on the journey.',
+      links: ['https://slides.com/samseay/deck-de526b', 'https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API', 'https://github.com/samueljseay/intersection-observer-examples', 'https://codesandbox.io/s/o599joo75z', 'https://twitter.com/samseay']
     }]
   }
 }
