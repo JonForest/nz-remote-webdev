@@ -1,6 +1,7 @@
 export default {
   '2020-04-09': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-04-09 20:00:00.000+12:00',
     talks: [{
       image: 'img/talks/solid.png',
       imageAlt: 'Solid logo',
