@@ -3,6 +3,11 @@ import data from '../data/talks';
 
 export default class MainRoute extends Route {
   model () {
-    return data['2020-04-09'];
+    const date = Object.keys(data).sort().reverse()[0];
+    return {
+      meetup: data[date],
+      dates: Object.keys(data).sort().reverse(),
+      currentDate: date
+    }
   }
 }

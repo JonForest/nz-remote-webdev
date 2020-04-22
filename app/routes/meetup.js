@@ -3,6 +3,10 @@ import data from '../data/talks';
 
 export default class MainRoute extends Route {
   model ({date}) {
-    return data[date];
+    return {
+      meetup: data[date],
+      dates: Object.keys(data).sort().reverse(),
+      currentDate: date
+    }
   }
 }
