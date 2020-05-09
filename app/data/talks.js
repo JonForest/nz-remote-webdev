@@ -1,5 +1,25 @@
 export default {
-  '2020-04-09': {
+  '2020-05-12': {
+    meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-05-12 20:00:00.000+12:00',
+    talks: [{
+      image: 'img/talks/postgresql.jpeg',
+      imageAlt: 'PostgreSQL logo',
+      title: 'Sane schema change management with Postgres',
+      author: 'Greg Brown',
+      description: '',
+      links: []
+    }, {
+      image: 'img/talks/tracking.jpg',
+      imageAlt: 'Fitness tracking UI',
+      imageAttribution: 'Photo by Ryan Stone on Unsplash',
+      title: 'Tracking async event graphs',
+      author: 'Fabian Cook',
+      description: '',
+      links: ['https://github.com/opennetwork/environment']
+    }]
+  },
+    '2020-04-09': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
     datetime: '2020-04-09 20:00:00.000+12:00',
     talks: [{
