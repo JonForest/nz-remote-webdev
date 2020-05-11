@@ -5,9 +5,9 @@ export default {
     talks: [{
       image: 'img/talks/postgresql.jpeg',
       imageAlt: 'PostgreSQL logo',
-      title: 'Sane schema change management with Postgres',
+      title: 'Schema Evolution',
       author: 'Greg Brown',
-      description: '',
+      description: 'Managing SQL schema changes without (too much!) pain',
       links: []
     }, {
       image: 'img/talks/tracking.jpg',
