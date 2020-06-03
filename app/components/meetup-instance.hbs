@@ -1,6 +1,6 @@
 <div class="m-4">
   <h1 class="text-3xl">Web Dev Meetup</h1>
-  <h2 class="text-2xl">Date and time: 8pm on Thursday 9th April</h2>
+  <h2 class="text-2xl">Date and time: {{date-formatter @meetup.datetime}}, NZST</h2>
   <h2 class="text-2xl">Location: <a href={{@meetup.meetingLink}} class="link-underline">{{@meetup.meetingLink}}</a></h2>
 </div>
 {{#each @meetup.talks as |talk|}}

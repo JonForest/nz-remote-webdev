@@ -1,0 +1,13 @@
+<h3>Previous Talks</h3>
+<ol>
+{{#each @dates as |date|}}
+  {{log @currenDate}}
+  <li>
+    {{#if (not-eq date @currentDate)}}
+      {{#link-to 'meetup' date class="link-underline"}}{{date}}{{/link-to}}
+    {{else}}
+      {{date}}
+    {{/if}}
+  </li>
+{{/each}}
+</ol>

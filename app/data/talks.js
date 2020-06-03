@@ -1,6 +1,48 @@
 export default {
+  '2020-06-08': {
+    meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-06-08 20:00:00.000+12:00',
+    talks: [{
+      image: 'img/talks/gears.jpg',
+      imageAlt: 'Gears close-up',
+      imageAttribution: 'Photo by Bill Oxford on Unsplash',
+      title: 'Intro to Service Works',
+      author: 'Sam Seay',
+      description: 'What are service works and how can we use them in our web developement?',
+      links: []
+    }, {
+      image: 'img/talks/citylightsfromspace.jpg',
+      imageAlt: 'Fitness tracking UI',
+      imageAttribution: 'Photo by NASA on Unsplash',
+      title: 'WebRTC Intro and Overview',
+      author: 'Darren Bruning',
+      description: '',
+      links: []
+    }]
+  },
+  '2020-05-12': {
+    meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-05-12 20:00:00.000+12:00',
+    talks: [{
+      image: 'img/talks/postgresql.jpeg',
+      imageAlt: 'PostgreSQL logo',
+      title: 'Schema Evolution',
+      author: 'Greg Brown',
+      description: 'Managing SQL schema changes without (too much!) pain',
+      links: []
+    }, {
+      image: 'img/talks/tracking.jpg',
+      imageAlt: 'Fitness tracking UI',
+      imageAttribution: 'Photo by Ryan Stone on Unsplash',
+      title: 'Tracking async event graphs',
+      author: 'Fabian Cook',
+      description: '',
+      links: ['https://github.com/opennetwork/environment']
+    }]
+  },
   '2020-04-09': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-04-09 20:00:00.000+12:00',
     talks: [{
       image: 'img/talks/solid.png',
       imageAlt: 'Solid logo',
@@ -14,7 +56,28 @@ export default {
       imageAttribution: 'Photo by Angely Acevedo on Unsplash',
       title: 'Infinite Scroll in React',
       author: 'Sam Seay',
-      description: 'Sam has recently taken on some entertaining problems with infinite scroll in React. He\'s going to chat about how he solved that using IntersectionObserver and other lessons he learned on the journey.'
+      description: 'Sam has recently taken on some entertaining problems with infinite scroll in React. He\'s going to chat about how he solved that using IntersectionObserver and other lessons he learned on the journey.',
+      links: ['https://slides.com/samseay/deck-de526b', 'https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API', 'https://github.com/samueljseay/intersection-observer-examples', 'https://codesandbox.io/s/o599joo75z', 'https://twitter.com/samseay']
+    }]
+  },
+  '2020-04-29': {
+    meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-04-29 12:30:00.000+12:00',
+    talks: [{
+      image: 'img/talks/athena.png',
+      imageAlt: 'AWS Athena logo',
+      title: 'Log search with Google BigQuery and Amazon Athena',
+      author: 'Jeremy Wells',
+      description: 'Log files can be an invaluable source of information for developers to debug live production systems. Jeremy will show how his team has built a search solution on top of BigQuery and a migration to Athena. Pitfalls and pratfalls included.',
+      links: []
+    }, {
+      image: 'img/talks/workingfromhome.jpg',
+      imageAlt: 'Dog sat on lap while working at a computer',
+      imageAttribution: 'Photo by Allie Smith on Unsplash',
+      title: 'Three Secrets to Distributed Working',
+      author: 'Jonathan Hollingsworth',
+      description: 'As a long time worker-from-home, Jonathan has been fascinated with how to get the most out of being distributed. This lockdown gave him a chance to test on a whole company.',
+      links: ['https://www.mediasuite.co.nz']
     }]
   }
 }

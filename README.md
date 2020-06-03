@@ -57,4 +57,5 @@ Specify what it takes to deploy your app.
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
 # Roadmap
+* Fix the scale on the images so that overflow:hidden stops the actual image increasing in size and it has a more 'zoom in' effect
 * When Mirage supports Fastboot (see https://github.com/miragejs/miragejs/issues/210) then switch over to that
