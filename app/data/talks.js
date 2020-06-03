@@ -1,4 +1,25 @@
 export default {
+  '2020-06-08': {
+    meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-06-08 20:00:00.000+12:00',
+    talks: [{
+      image: 'img/talks/gears.jpg',
+      imageAlt: 'Gears close-up',
+      imageAttribution: 'Photo by Bill Oxford on Unsplash',
+      title: 'Intro to Service Works',
+      author: 'Sam Seay',
+      description: 'What are service works and how can we use them in our web developement?',
+      links: []
+    }, {
+      image: 'img/talks/citylightsfromspace.jpg',
+      imageAlt: 'Fitness tracking UI',
+      imageAttribution: 'Photo by NASA on Unsplash',
+      title: 'WebRTC Intro and Overview',
+      author: 'Darren Bruning',
+      description: '',
+      links: []
+    }]
+  },
   '2020-05-12': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
     datetime: '2020-05-12 20:00:00.000+12:00',
@@ -19,7 +40,7 @@ export default {
       links: ['https://github.com/opennetwork/environment']
     }]
   },
-    '2020-04-09': {
+  '2020-04-09': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
     datetime: '2020-04-09 20:00:00.000+12:00',
     talks: [{
