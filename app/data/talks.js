@@ -6,9 +6,9 @@ export default {
       image: 'img/talks/gears.jpg',
       imageAlt: 'Gears close-up',
       imageAttribution: 'Photo by Bill Oxford on Unsplash',
-      title: 'Intro to Service Works',
+      title: 'Intro to Service Workers',
       author: 'Sam Seay',
-      description: 'What are service works and how can we use them in our web developement?',
+      description: 'What are service workers and how can we use them in our web developement?',
       links: []
     }, {
       image: 'img/talks/citylightsfromspace.jpg',
