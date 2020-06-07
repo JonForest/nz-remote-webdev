@@ -16,7 +16,7 @@ export default {
       imageAttribution: 'Photo by NASA on Unsplash',
       title: 'WebRTC Intro and Overview',
       author: 'Darren Bruning',
-      description: '',
+      description: 'Or, what I learned over the covid lockdown',
       links: []
     }]
   },
