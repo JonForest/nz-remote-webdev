@@ -1,4 +1,25 @@
 export default {
+  '2020-07-20': {
+    meetingLink: 'https://us02web.zoom.us/j/691023546',
+    datetime: '2020-07-20 20:00:00.000+12:00',
+    talks: [{
+      image: 'img/talks/citylightsfromspace.jpg',
+      imageAlt: 'City lights from space',
+      imageAttribution: 'Photo by NASA on Unsplash',
+      title: 'Re-writing the rulebook',
+      author: 'Fabian Cook',
+      description: 'Producing & observing the graphs of JavaScript',
+      links: []
+    }, {
+      image: 'img/talks/postgresql.jpeg',
+      imageAlt: 'PostgreSQL logo',
+      imageAttribution: '',
+      title: '10 things you can do with postgres',
+      author: 'Greg Brown',
+      description: 'Getting the most out of the world\'s most advanced open source database',
+      links: []
+    }]
+  },
   '2020-06-08': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
     datetime: '2020-06-08 20:00:00.000+12:00',
