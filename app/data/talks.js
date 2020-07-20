@@ -1,7 +1,7 @@
 export default {
   '2020-07-20': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
-    datetime: '2020-07-20 20:00:00.000+12:00',
+    datetime: '2020-07-20T20:00:00.000+12:00',
     talks: [{
       image: 'img/talks/citylightsfromspace.jpg',
       imageAlt: 'City lights from space',
@@ -22,7 +22,7 @@ export default {
   },
   '2020-06-08': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
-    datetime: '2020-06-08 20:00:00.000+12:00',
+    datetime: '2020-06-08T20:00:00.000+12:00',
     talks: [{
       image: 'img/talks/gears.jpg',
       imageAlt: 'Gears close-up',
@@ -43,7 +43,7 @@ export default {
   },
   '2020-05-12': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
-    datetime: '2020-05-12 20:00:00.000+12:00',
+    datetime: '2020-05-12T20:00:00.000+12:00',
     talks: [{
       image: 'img/talks/postgresql.jpeg',
       imageAlt: 'PostgreSQL logo',
@@ -63,7 +63,7 @@ export default {
   },
   '2020-04-09': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
-    datetime: '2020-04-09 20:00:00.000+12:00',
+    datetime: '2020-04-09T20:00:00.000+12:00',
     talks: [{
       image: 'img/talks/solid.png',
       imageAlt: 'Solid logo',
@@ -83,7 +83,7 @@ export default {
   },
   '2020-04-29': {
     meetingLink: 'https://us02web.zoom.us/j/691023546',
-    datetime: '2020-04-29 12:30:00.000+12:00',
+    datetime: '2020-04-29T12:30:00.000+12:00',
     talks: [{
       image: 'img/talks/athena.png',
       imageAlt: 'AWS Athena logo',
