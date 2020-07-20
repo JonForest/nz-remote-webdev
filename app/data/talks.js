@@ -1,6 +1,6 @@
 export default {
   '2020-07-20': {
-    meetingLink: 'https://us02web.zoom.us/j/691023546',
+    meetingLink: 'https://us02web.zoom.us/j/81773428436?pwd=cUdXR3VwM0NDRVhnQlA4MmlQcjVxQT09',
     datetime: '2020-07-20T20:00:00.000+12:00',
     talks: [{
       image: 'img/talks/citylightsfromspace.jpg',
